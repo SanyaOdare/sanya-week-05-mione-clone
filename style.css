@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -8,16 +14,60 @@ body {
   font-family: 'Barlow', sans-serif;
 }
 
+/* NAVBAR */
+.navbar {
+  height: 9.0rem;
+}
+
+.rb-zeplin-selected {
+  /* margin: 0rem 29.1rem; */
+  padding: 2.0rem 1.2rem;
+}
+
 .logo {
   width: 7.7rem;
 }
 
-a.nav-link {
-  font-size: 1.5rem;
-  font-weight: 500;
+.nav-link {
+  font-size: 1.6rem;
+  font-weight: 600;
   letter-spacing: .07rem;
+  padding: 0px 26px;
 }
 
-a.active {
-  color: #0978F5;
+
+/* UTILITY CLASSES */
+
+h2 {
+  /* font-size: ; */
+  text-transform: uppercase;
+}
+
+.btn {
+  border-radius: 4px;
+  padding: 1.2rem 3.65rem;
+}
+
+.btn-dark {
+  margin: .5rem .5rem .5rem 0rem;
+}
+
+a > span {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+i.fa-brands {
+  margin-right: 1.0rem;
+}
+
+/* HERO SECTION */
+
+.page-content {
+  margin-top: 25.6rem;
+}
+
+.page-title {
+  font-size: 4.8rem;
+  font-weight: 700;  
 }
