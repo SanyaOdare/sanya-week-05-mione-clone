@@ -19,8 +19,7 @@ body {
   height: 9.0rem;
 }
 
-.rb-zeplin-selected {
-  /* margin: 0rem 29.1rem; */
+.rb-zeplin-selected {  
   padding: 2.0rem 1.2rem;
 }
 
@@ -38,8 +37,7 @@ body {
 
 /* UTILITY CLASSES */
 
-h2 {
-  /* font-size: ; */
+h2 {  
   text-transform: uppercase;
 }
 
@@ -61,6 +59,20 @@ i.fa-brands {
   margin-right: 1.0rem;
 }
 
+.page-title,
+h2.about,
+.section-title {  
+  font-weight: 700;  
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* } UTILITY CLASSES */
+
 /* HERO SECTION */
 
 .page-content {
@@ -69,5 +81,101 @@ i.fa-brands {
 
 .page-title {
   font-size: 4.8rem;
-  font-weight: 700;  
+}
+
+.lead {
+  font-size: 1.8rem;
+  margin: 0rem 0rem 3.0rem;
+}
+
+.text-dark {
+  font-size: 1.8rem;
+}
+
+/* ABOUT SECTION */
+
+section.xl {
+  padding: 20.0rem 0rem;
+}
+
+h2.about {
+  font-size: 4.0rem;
+  margin: 0rem 0rem 2rem;
+}
+
+i.fa-solid::before {
+  color: #2cb34c;
+  font-size: 1em;
+  font-weight: bolder;
+  margin: 0rem 0rem 2.3rem 0rem;
+}
+
+span.list-text {
+  margin: 0rem 0rem 0rem .7rem;
+}
+
+ul.list-icon > li {
+  font-size: 1.6rem;
+  margin: 0rem 0rem 1.5rem;  
+}
+
+div.circle {
+  border-radius: 100%;
+  height: 10rem;
+  width: 10rem;
+}
+
+i.promo-icon {  
+  
+}
+
+i.fa-download {
+  font-size: 4em;
+  padding: 4.5rem 3rem;  
+}
+
+i.fa-user {
+  font-size: 4em;
+  padding: 2.5rem 3.3rem;  
+}
+
+
+/* THE TEAM SECTION */
+
+.team {
+  padding: 7.0rem 0rem;
+}
+
+.section-title {
+  font-size: 5.6rem;
+  margin: 0rem 0rem 1.5rem;
+}
+
+p.role {
+  color: #797D85;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0 0 .5rem;
+}
+
+.lsp-2x {
+  letter-spacing: 0.07rem;
+}
+
+h6.card-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 2.0rem;
+}
+
+img.circle {
+  border-radius: 100%;
+  margin: 0 0 3.0rem;
+}
+
+.btn-circle {  
+  border-radius: 100%;
+  height: 4.5rem;
+  width: 4.5rem;  
+  padding: 1.5rem .9rem 2.5rem 1.2rem;
 }
