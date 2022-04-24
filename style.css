@@ -61,7 +61,9 @@ i.fa-brands {
 
 .page-title,
 h2.about,
-.section-title {  
+.section-title,
+h6.card-title,
+.promo-stat {  
   font-weight: 700;  
 }
 
@@ -119,14 +121,19 @@ ul.list-icon > li {
   margin: 0rem 0rem 1.5rem;  
 }
 
+.promo-box {
+  margin: 4rem 0 0 ;
+  padding: 4rem 3.2rem 6rem;
+}
+
 div.circle {
   border-radius: 100%;
   height: 10rem;
   width: 10rem;
 }
 
-i.promo-icon {  
-  
+.promo-stat {  
+  font-size: 4rem;
 }
 
 i.fa-download {
@@ -137,6 +144,14 @@ i.fa-download {
 i.fa-user {
   font-size: 4em;
   padding: 2.5rem 3.3rem;  
+}
+
+.lsp-extra {
+  letter-spacing: 0.3rem;
+}
+
+.promo-text {
+  font-size: 1.2rem;
 }
 
 
@@ -154,8 +169,7 @@ i.fa-user {
 p.role {
   color: #797D85;
   font-size: 1.4rem;
-  font-weight: 500;
-  margin: 0 0 .5rem;
+  font-weight: 500;  
 }
 
 .lsp-2x {
@@ -164,7 +178,7 @@ p.role {
 
 h6.card-title {
   font-size: 3rem;
-  font-weight: 700;
+  /* font-weight: 700; */
   margin: 0 0 2.0rem;
 }
 
@@ -178,4 +192,10 @@ img.circle {
   height: 4.5rem;
   width: 4.5rem;  
   padding: 1.5rem .9rem 2.5rem 1.2rem;
+}
+
+/* THE FEATURE SECTION */
+
+.text-right {
+  text-align: right;
 }
