@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* CUSTOM SETTING */
 *,
 ::after,
 ::before {
@@ -198,4 +199,23 @@ img.circle {
 
 .text-right {
   text-align: right;
+}
+
+.card-text {
+  margin: 1.5rem 0;
+  letter-spacing: .07rem;  
+}
+
+.fa-star {
+  color: #fdcc08;
+}
+
+h3.hidden {
+  visibility: hidden;
+}
+
+/* DOWNLOAD APP */
+
+section#app {
+  padding: 30rem 0;
 }
