@@ -30,8 +30,7 @@ body {
 
 .nav-link {
   font-size: 1.6rem;
-  font-weight: 600;
-  letter-spacing: .07rem;
+  font-weight: 600;  
   padding: 0px 26px;
 }
 
@@ -72,6 +71,12 @@ img {
   height: auto;
   max-width: 100%;
   width: 100%;
+}
+
+.nav-link,
+.lsp-2x,
+.card-text {
+  letter-spacing: .07rem;
 }
 
 /* } UTILITY CLASSES */
@@ -127,8 +132,7 @@ ul.list-icon > li {
   padding: 4rem 3.2rem 6rem;
 }
 
-div.circle {
-  border-radius: 100%;
+div.circle {  
   height: 10rem;
   width: 10rem;
 }
@@ -173,10 +177,6 @@ p.role {
   font-weight: 500;  
 }
 
-.lsp-2x {
-  letter-spacing: 0.07rem;
-}
-
 h6.card-title {
   font-size: 3rem;
   /* font-weight: 700; */
@@ -189,21 +189,23 @@ img.circle {
 }
 
 .btn-circle {  
-  border-radius: 100%;
+  /* border-radius: 100%; */
   height: 4.5rem;
   width: 4.5rem;  
   padding: 1.5rem .9rem 2.5rem 1.2rem;
 }
 
 /* THE FEATURE SECTION */
+section#features {
+  background-color: #FAFBFC;
+}
 
 .text-right {
   text-align: right;
 }
 
 .card-text {
-  margin: 1.5rem 0;
-  letter-spacing: .07rem;  
+  margin: 1.5rem 0;  
 }
 
 .fa-star {
@@ -214,8 +216,26 @@ h3.hidden {
   visibility: hidden;
 }
 
+/* TESTIMONIALS */
+.card-body {
+  padding: 4rem 2rem;
+}
+
 /* DOWNLOAD APP */
 
 section#app {
   padding: 30rem 0;
+}
+
+p.download {
+  min-width: 5ch;
+}
+
+/* FOOTER */
+#copyright {
+  font-size: 1.8rem;
+}
+
+p > a {
+  text-decoration: none;
 }
